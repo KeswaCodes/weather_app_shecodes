@@ -1,0 +1,153 @@
+.searchEmoji {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+a {
+  text-decoration: none;
+  color: #90e0ef;
+  transition: 300ms;
+}
+button {
+  position: fixed;
+  right: 227px;
+  top: 133px;
+  padding: 0.01%;
+  font-size: 10px;
+  border: none;
+  transition: 150ms;
+  box-shadow: 3px 3px 6px black;
+  border-radius: 1.5px;
+}
+button:hover {
+  background-color: #bde0fe;
+  color: black;
+  border: 1px solid black;
+}
+
+.col-3 {
+  border: 0.2px solid black;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 23px;
+}
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+.container {
+  position: fixed;
+  z-index: 1;
+  right: 5rem;
+}
+.row {
+  margin: 2rem 2rem;
+  font-family: "Ubuntu", sans-serif;
+  height: 5rem;
+}
+.sub {
+  margin-left: 2rem;
+}
+.weather {
+  border: 1px solid black;
+  width: 65rem;
+  height: 33rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.currentEmoji {
+  margin: 0 0 0 20px;
+}
+.dayTemp {
+  position: fixed;
+  left: 38rem;
+  font-size: 30px;
+}
+.cityName {
+  margin: 1rem 0 0 2rem;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+body {
+  background-image: linear-gradient(
+    135deg,
+    rgba(0, 119, 182, 0.6),
+    rgba(144, 224, 239, 1)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.current {
+  display: block;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 34rem;
+  font-weight: 900;
+}
+.currentTemp {
+  margin: 0 1rem 0 2rem;
+  font-size: 5rem;
+  font-family: "Inconsolata", monospace;
+}
+.conversion {
+  position: fixed;
+  top: 12rem;
+  font-size: 26px;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 600;
+}
+.searchEngine {
+  position: fixed;
+  right: 17rem;
+  top: 117px;
+  border: none;
+}
+.day {
+  font-family: "Quicksand", sans-serif;
+  position: fixed;
+  bottom: 26rem;
+  left: 11rem;
+  font-size: 1.5rem;
+  margin: 6px 0;
+}
+input {
+  border-radius: 10px;
+  text-align: center;
+  padding: 4px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.currentInfo {
+  position: fixed;
+  right: 24rem;
+  top: 13rem;
+}
+.dailyEmoji {
+  font-size: 57px;
+  position: relative;
+  right: 1.5rem;
+}
+.col-6 {
+  padding: 2px;
+}
+li {
+  padding: 2px;
+  font-family: "Dosis", sans-serif;
+}
+ul {
+  margin: 1rem;
+  text-decoration: none;
+}
+.dailyEmoji {
+  width: 65px;
+  height: 65px;
+}
