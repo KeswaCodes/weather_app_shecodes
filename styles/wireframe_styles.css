@@ -10,14 +10,16 @@ a {
 }
 button {
   position: fixed;
-  right: 227px;
-  top: 133px;
-  padding: 0.01%;
+  right: 280px;
+  top: 123px;
+  padding: 8px;
   font-size: 10px;
+  width: 60px;
+  height: 30px;
   border: none;
   transition: 150ms;
   box-shadow: 3px 3px 6px black;
-  border-radius: 1.5px;
+  border-radius: 9px;
 }
 button:hover {
   background-color: #bde0fe;
@@ -51,11 +53,11 @@ video {
   height: 5rem;
 }
 .sub {
-  margin-left: 2rem;
+  margin-left: 1.2rem;
 }
 .weather {
   border: 1px solid black;
-  width: 65rem;
+  width: 70rem;
   height: 33rem;
   display: block;
   margin: 0 auto;
@@ -71,7 +73,7 @@ video {
   font-size: 30px;
 }
 .cityName {
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 2rem 0 1.1rem;
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
 }
@@ -105,9 +107,10 @@ footer {
   font-family: "Instrument Sans", sans-serif;
   font-weight: 600;
 }
+
 .searchEngine {
   position: fixed;
-  right: 17rem;
+  right: 24rem;
   top: 117px;
   border: none;
 }
@@ -117,7 +120,7 @@ footer {
   bottom: 26rem;
   left: 11rem;
   font-size: 1.5rem;
-  margin: 6px 0;
+  margin: 1.5rem 0;
 }
 input {
   border-radius: 10px;
